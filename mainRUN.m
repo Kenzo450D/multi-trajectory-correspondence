@@ -18,21 +18,21 @@ clc;
 totalLoopCount = 5;
 
 % -- unoptimised file
-fileNOp = '../datasets/vp/unoptimised/complete/victoriaPark-full.g2o';
-fileNOpMat = '../datasets/vp/unoptimised/complete/victoriaPark-full.mat';
+fileNOp = 'datasets/vp/unoptimised/complete/victoriaPark-full.g2o';
+fileNOpMat = 'datasets/vp/unoptimised/complete/victoriaPark-full.mat';
 
 % -- optimised file
-fileOpComplete = '../datasets/vp/optimised/complete/victoriaPark-fullOp.g2o';
-fileOpCompleteMat = '../datasets/vp/optimised/complete/victoriaPark-fullOp.mat';
+fileOpComplete = 'datasets/vp/optimised/complete/victoriaPark-fullOp.g2o';
+fileOpCompleteMat = 'datasets/vp/optimised/complete/victoriaPark-fullOp.mat';
 
 % -- ateFile AUT
 fileAutResults = 'vpAUTResults.txt';
 fileICPResults = 'vpICPResults.txt';
 
 % -- path for results
-fileNameOwlBaseWithPath = '../datasets/vp/optimised/split/victoriaPark-op-Dataset';
-fileNameNOwlBaseWithPath = '../datasets/vp/unoptimised/split/victoriaPark-nop-Dataset';
-joinedFilesDir = '../datasets/VPoutput/joined/';
+fileNameOwlBaseWithPath = 'datasets/vp/optimised/split/victoriaPark-op-Dataset';
+fileNameNOwlBaseWithPath = 'datasets/vp/unoptimised/split/victoriaPark-nop-Dataset';
+joinedFilesDir = 'datasets/VPoutput/joined/';
 
 % -- path for quantitative result
 ateAUTFile = 'AUTateFile.txt';
